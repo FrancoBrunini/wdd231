@@ -141,29 +141,7 @@ footer {
 .socials a:hover {
     opacity: 0.8;}
 
-    @media (min-width: 768px) {
-
-    #menu {
-        display: none;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 1rem;
-    }
-
-    .top-layout {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1rem;
-    }
-
-    .courses {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+    
 .courses div {
     background-color: #e5e7eb;
     padding: 1rem;
