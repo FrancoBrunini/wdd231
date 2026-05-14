@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Patagonia Tech",
+        "address": "123 Main Street",
+        "phone": "+54 291 555-1234",
+        "website": "https://patagoniatech.com",
+        "image": "images/business1.webp",
+        "membership": 3,
+        "description": "Technology solutions company."
+    },
+
+    {
+        "name": "Bahía Fitness",
+        "address": "456 Fitness Ave",
+        "phone": "+54 291 555-5678",
+        "website": "https://bahiafitness.com",
+        "image": "images/business2.webp",
+        "membership": 2,
+        "description": "Local fitness and wellness center."
+    },
+
+    {
+        "name": "Ferreira Sport",
+        "address": "789 Sports Road",
+        "phone": "+54 291 555-9999",
+        "website": "https://ferreirasport.com",
+        "image": "images/business3.webp",
+        "membership": 3,
+        "description": "Sportswear and shoe store."
+    },
+
+    {
+        "name": "Coffee House",
+        "address": "321 Coffee Street",
+        "phone": "+54 291 555-3333",
+        "website": "https://coffeehouse.com",
+        "image": "images/business4.webp",
+        "membership": 1,
+        "description": "Coffee shop and bakery."
+    },
+
+    {
+        "name": "Digital World",
+        "address": "555 Tech Avenue",
+        "phone": "+54 291 555-8888",
+        "website": "https://digitalworld.com",
+        "image": "images/business5.webp",
+        "membership": 2,
+        "description": "Electronics and computers."
+    },
+
+    {
+        "name": "Ocean Travel",
+        "address": "888 Travel Blvd",
+        "phone": "+54 291 555-7777",
+        "website": "https://oceantravel.com",
+        "image": "images/business6.webp",
+        "membership": 1,
+        "description": "Travel agency services."
+    },
+
+    {
+        "name": "Green Garden",
+        "address": "654 Nature Road",
+        "phone": "+54 291 555-4444",
+        "website": "https://greengarden.com",
+        "image": "images/business7.webp",
+        "membership": 2,
+        "description": "Gardening and landscaping services."
+    }
+]
