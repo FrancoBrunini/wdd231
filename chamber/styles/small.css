@@ -84,3 +84,9 @@ footer {
     display: block;
     margin: 0 auto;
 }
+.logo img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
