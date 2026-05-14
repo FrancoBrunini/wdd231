@@ -8,20 +8,25 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
+
+    font-family: 'Roboto', sans-serif;
 }
+h1{
+    color: white;
+}
+h2{
+    color: black;
+}
+
 header, footer {
     background-color: var(--primary-color);
     color: var(--background-color);
     text-align: center;
     padding: 1rem;
 }
-h1, h2, h3{
-    color: var(--primary-color);
-    margin: 0.5rem 0;
-}
+
 img {
     max-width: 100%;
     height: auto;
