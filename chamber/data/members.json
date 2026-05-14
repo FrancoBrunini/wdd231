@@ -4,7 +4,7 @@
         "address": "123 Main Street",
         "phone": "+54 291 555-1234",
         "website": "https://patagoniatech.com",
-        "image": "images/business1.webp",
+        "image": "images/patagoniatech.webp",
         "membership": 3,
         "description": "Technology solutions company."
     },
@@ -14,7 +14,7 @@
         "address": "456 Fitness Ave",
         "phone": "+54 291 555-5678",
         "website": "https://bahiafitness.com",
-        "image": "images/business2.webp",
+        "image": "images/bahiafitness.webp",
         "membership": 2,
         "description": "Local fitness and wellness center."
     },
@@ -24,7 +24,7 @@
         "address": "789 Sports Road",
         "phone": "+54 291 555-9999",
         "website": "https://ferreirasport.com",
-        "image": "images/business3.webp",
+        "image": "images/ferreirasport.webp",
         "membership": 3,
         "description": "Sportswear and shoe store."
     },
@@ -34,7 +34,7 @@
         "address": "321 Coffee Street",
         "phone": "+54 291 555-3333",
         "website": "https://coffeehouse.com",
-        "image": "images/business4.webp",
+        "image": "images/coffeehouse.webp",
         "membership": 1,
         "description": "Coffee shop and bakery."
     },
@@ -44,7 +44,7 @@
         "address": "555 Tech Avenue",
         "phone": "+54 291 555-8888",
         "website": "https://digitalworld.com",
-        "image": "images/business5.webp",
+        "image": "images/digitalworld.webp",
         "membership": 2,
         "description": "Electronics and computers."
     },
@@ -54,7 +54,7 @@
         "address": "888 Travel Blvd",
         "phone": "+54 291 555-7777",
         "website": "https://oceantravel.com",
-        "image": "images/business6.webp",
+        "image": "images/oceantravel.webp",
         "membership": 1,
         "description": "Travel agency services."
     },
@@ -64,7 +64,7 @@
         "address": "654 Nature Road",
         "phone": "+54 291 555-4444",
         "website": "https://greengarden.com",
-        "image": "images/business7.webp",
+        "image": "images/greengarden.webp",
         "membership": 2,
         "description": "Gardening and landscaping services."
     }
