@@ -117,3 +117,75 @@ footer {
 nav.open .navigation {
     display: block;
 }
+
+.hero-section {
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.tickets {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: var(--accent-color);
+    color: white;
+
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+
+.info-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.events,
+.current,
+.forecast {
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.events h3,
+.current h3,
+.forecast h3 {
+    margin-top: 0;
+    background-color: var(--primary-color);
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.company-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.company-container section {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.company-container img {
+    width: 120px;
+    height: auto;
+}
+.forecast-content div {
+    margin-bottom: 1rem;
+}
