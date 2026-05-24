@@ -109,10 +109,7 @@ footer {
     content: "X";
 }
 
-.navigation {
-    display: none;
-    list-style: none;
-}
+
 
 nav.open .navigation {
     display: block;
@@ -134,7 +131,7 @@ nav.open .navigation {
     right: 20px;
 
     background-color: var(--accent-color);
-    color: white;
+    color: black;
 
     border: none;
     padding: 1rem;
