@@ -105,6 +105,12 @@ async function getForecast() {
         forecastContainer.appendChild(card);
     });
 }
+const year = new Date().getFullYear();
 
+document.querySelector("#lastModified").textContent =
+`Last Modification: ${document.lastModified}`;
+
+document.querySelector("#copyright").innerHTML =
+`&copy; ${year} Franco Bruñini`;
 getForecast();
 getWeather();
