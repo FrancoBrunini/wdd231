@@ -93,3 +93,27 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+#menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+}
+
+nav.open .navigation {
+    display: block;
+}
