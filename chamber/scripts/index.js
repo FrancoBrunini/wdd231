@@ -12,54 +12,50 @@ async function getCompany() {
 
     displayCompany(data);
 }
+const displayCompany = (companies) => {
 
-const displayCompany = (company) => {
+    cards.innerHTML = "";
 
-    company.forEach((company) => {
+    const filteredCompanies = companies.filter(company =>
+        company.membership === 2 || company.membership === 3
+    );
+
+    const randomCompanies = filteredCompanies.sort(() => 0.5 - Math.random());
+
+    const selectedCompanies = randomCompanies.slice(0, 3);
+
+    selectedCompanies.forEach((company) => {
 
         const card = document.createElement("section");
 
         const logo = document.createElement("img");
-        const name = document.createElement("h2");
+        const name = document.createElement("h3");
         const address = document.createElement("p");
         const phone = document.createElement("p");
         const website = document.createElement("a");
-        const description = document.createElement("p");
+
+        logo.src = company.image;
+        logo.alt = `${company.name} logo`;
+        logo.loading = "lazy";
+        logo.width = 200;
 
         name.textContent = company.name;
         address.textContent = company.address;
         phone.textContent = company.phone;
-        description.textContent = company.description;
 
         website.textContent = "Visit Website";
         website.href = company.website;
         website.target = "_blank";
 
-        logo.setAttribute("src", company.image);
-        logo.setAttribute("alt", `${company.name} logo`);
-        logo.setAttribute("loading", "lazy");
-        logo.setAttribute("width", "300");
-
         card.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(description);
         card.appendChild(website);
 
         cards.appendChild(card);
     });
 };
-getCompany();
-const menuButton = document.querySelector("#menu");
-const navigation = document.querySelector("nav");
-
-menuButton.addEventListener("click", () => {
-    navigation.classList.toggle("open");
-    menuButton.classList.toggle("open");
-
-});
-
 
 
 
@@ -114,3 +110,4 @@ document.querySelector("#copyright").innerHTML =
 `&copy; ${year} Franco Bruñini`;
 getForecast();
 getWeather();
+getCompany();
