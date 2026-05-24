@@ -189,3 +189,7 @@ nav.open .navigation {
 .forecast-content div {
     margin-bottom: 1rem;
 }
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+}
