@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bahía Blanca Chamber of Commerce Directory</title>
+
+    <meta name="description" content="Directory page for the Bahía Blanca Chamber of Commerce website featuring local business members and community information.">
+
+    <meta name="author" content="Franco Bruñini">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Bahía Blanca Chamber Directory">
+    <meta property="og:description" content="Explore local businesses and members of the Bahía Blanca Chamber of Commerce.">
+    <meta property="og:image" content="https://francobrunini.github.io/wdd231/images/chamber-social.jpg">
+    <meta property="og:url" content="https://francobrunini.github.io/wdd231/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="Chamber Logo">
+        </div>
+
+        <nav>
+     
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1>Join the Chamber</h1>
+    <div class="join-layout">
+<form method="get" action="thankyou.html">
+
+    <label for="fname">First Name
+    <input 
+        type="text"
+        id="fname"
+        name="fname"
+        title="Enter your first name"
+        autocomplete="given-name"
+        required>
+        </label>
+    <label for="lname">Last Name
+    <input 
+        type="text"
+        id="lname"
+        name="lname"
+        title="Enter your last name"
+        autocomplete="family-name"
+        required>
+        </label>
+    <label for="organization-title">Organization Title
+    <input 
+        type="text"
+        id="orgTitle"
+        name="orgTitle"
+        title="Only letters, hyphens, and spaces. Minimum 7 characters."
+        autocomplete="organization-title"
+        pattern="[A-Za-z\s\-]{7,}"
+        required>
+        </label>
+      <label for="email">Email Address
+    <input 
+        type="email"
+        id="email"
+        name="email"
+        title="Enter a valid email address"
+        autocomplete="email"
+        placeholder="youremail@gmail.com"
+        required>
+        </label>
+    <label for="phone">Phone Number
+    <input 
+        type="tel"
+        id="phone"
+        name="phone"
+        title="Enter a valid phone number (e.g., 123-456-7890)"
+        autocomplete="tel"
+        placeholder="123-456-7890"
+        pattern="\d{3}[-.\s]?\d{3}[-.\s]?\d{4}"
+        required>
+        </label>
+    <label for="organization-business">Business Name
+    <input 
+     type="text"
+        id="organization"
+        name="organization"
+        title="Enter your organization name"
+        autocomplete="organization"
+        required>
+    
+        </label>
+
+        <label for="membership">
+    Membership Level
+    <select id="membership" name="membership" required>
+
+        <option value=""disabled selected>Select a Membership</option>
+
+        <option value="np">
+            NP Membership (No Fee)
+        </option>
+
+        <option value="bronze">
+            Bronze Membership
+        </option>
+
+        <option value="silver">
+            Silver Membership
+        </option>
+
+        <option value="gold">
+            Gold Membership
+        </option>
+
+    </select>
+</label>
+    <label for="description">Business Description
+    <textarea 
+        id="description"
+        name="description"
+        title="Describe your organization">
+    </textarea>
+    </label>
+     <input type="hidden" id="timestamp" name="timestamp">
+
+    <input type="submit" value="Submit Application">
+</form>
+
+<section class="membership-cards">
+    <h2>Membership Levels</h2>
+
+        <div class="card">
+            <h3>NP Membership</h3>
+            <a href="#" id="open-np">Learn More</a>
+        </div>
+
+        <div class="card">
+            <h3>Bronze Membership</h3>
+            <a href="#" id="open-bronze">Learn More</a>
+        </div>
+
+        <div class="card">
+            <h3>Silver Membership</h3>
+            <a href="#" id="open-silver">Learn More</a>
+        </div>
+
+        <div class="card">
+            <h3>Gold Membership</h3>
+            <a href="#" id="open-gold">Learn More</a>
+        </div>
+
+    </section>
+</div>
+
+<dialog id="np-modal">
+    <h2>NP Membership</h2>
+    <p>No fee for nonprofit organizations.</p>
+        <p>Price= $0/year</p>
+    
+    <button class="close">Close</button>
+</dialog>
+<dialog id="bronze-modal">
+    <h2>Bronze Membership</h2>
+    <p>Basic listing in our directory and access to networking events.</p>
+        <p>Price= $75/year</p>
+    <button class="close">Close</button>
+</dialog>
+<dialog id="silver-modal">
+    <h2>Silver Membership</h2>
+    <p>Enhanced visibility and priority access to events.</p>
+      <p>Price= $100/year</p>  
+    
+    <button class="close">Close</button>
+</dialog>
+<dialog id="gold-modal">
+    <h2>Gold Membership</h2>
+    <p>Maximum visibility and exclusive benefits.</p>
+       <p>Price= $150/year</p> 
+    <button class="close">Close</button>
+</dialog>
+</main>
+
+
+<footer>
+        <section>
+            <h3>Bahía Blanca Chamber of Commerce</h3>
+            <p>123 Main Street</p>
+            <p>Bahía Blanca, Buenos Aires</p>
+            <p>info@bbchamber.org</p>
+            <p>(291) 123-4567</p>
+        </section>
+
+        <section>
+            <p>WDD 231 Project</p>
+            <p>Franco Bruñini</p>
+            <p id="lastModified"></p>
+        </section>
+
+</footer>
+</body>
+
+</html>

@@ -160,3 +160,73 @@ footer {
     font-weight: bold;
     text-align: center;
 }
+dialog {
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: .25rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 3rem #777;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+.courses div {
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: auto;
+    padding: 0.3rem 0.6rem;
+
+    border: none;
+    background: transparent;
+
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#loader {
+  margin: 2rem;
+  width: 50px;  /* width of the loader */
+  height: 50px; /* height of the loader */
+  border: 5px solid transparent; /* border width */
+  border-color: #999 black #999 transparent; /* border colors (4 - 2 transparent) */
+  border-radius: 100%; /* make it round */
+  animation: spin 10s linear infinite; /* spin animation with duration and continuous */
+  box-shadow: 0 0 1rem rgb(0 0 255 / 40%); /* blueish shadow effect on round div */
+}
+
+#loader::after {
+  content: '⚙️';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+  100% {transform: rotate(360deg);} /* spin 360 degrees */
+}
+
+@keyframes pulse { /* pulse the gear emoji */
+  0%, 100% {transform: translate(-50%, -50%) scale(1);} /* scale to 1 */
+  50% {transform: translate(-50%, -50%) scale(5);} /* scale to 1.25 */
+}
+

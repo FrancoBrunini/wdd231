@@ -101,6 +101,9 @@ function displayCourses(courseList) {
     courseList.forEach(course => {
 
         const courseCard = document.createElement("div");
+        courseCard.addEventListener("click", () => {
+    displayCourseDetails(course);
+});
 
 if (course.completed) {
     courseCard.textContent = `✓ ${course.subject} ${course.number}`;
@@ -143,4 +146,25 @@ wddButton.addEventListener("click", () => {
     displayCourses(wddCourses);
 });
 displayCourses(courses);
+const courseDetails = document.querySelector("#course-details");
+document.querySelector("#closeModal").addEventListener("click", () => {
+    courseDetails.close();
+});
 
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}

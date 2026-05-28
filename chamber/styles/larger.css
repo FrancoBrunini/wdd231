@@ -28,4 +28,10 @@
     .company-container {
     grid-template-columns: repeat(3, 1fr);
 }
+.join-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
 }
