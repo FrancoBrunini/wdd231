@@ -20,6 +20,9 @@ h1{
 h2{
     color: black;
 }
+.discovery{
+color: white;
+}
 
 header, footer {
     background-color: var(--primary-color);
