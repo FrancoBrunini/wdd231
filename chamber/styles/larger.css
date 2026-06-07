@@ -34,4 +34,10 @@
         gap: 2rem;
         align-items: start;
     }
+#cards {
+    grid-template-areas:
+        "one one two three"
+        "four five five six"
+        "seven seven eight eight";
+}
 }

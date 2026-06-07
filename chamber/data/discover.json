@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Plaza Rivadavia",
+      "image": "images/rivadavia.webp",
+      "address": "Centro, Bahía Blanca",
+      "description": "The main square of Bahía Blanca."
+    },
+    {
+    "name": "Teatro Municipal",
+    "image": "images/teatromunicipal.webp",
+    "address": "Alsina 425, Bahía Blanca",
+    "description": "Historic theater that hosts concerts and cultural events."
+  },
+  {
+    "name": "Parque de Mayo",
+    "image": "images/parquedemayo.webp",
+    "address": "Bahía Blanca",
+    "description": "Large public park with walking paths and recreational areas."
+  },
+  {
+    "name": "Universidad Nacional del Sur",
+    "image": "images/uns.webp",
+    "address": "Av. Alem 1253, Bahía Blanca",
+    "description": "One of the most important universities in Argentina."
+  },
+  {
+    "name": "Puerto de Ingeniero White",
+    "image": "images/puertoingwhite.webp",
+    "address": "Ingeniero White, Bahía Blanca",
+    "description": "Major port and industrial area connected to the city."
+  },
+  {
+    "name": "Museo del Puerto",
+    "image": "images/museodelpuerto.webp",
+    "address": "Guillermo Torres 4180, Ingeniero White",
+    "description": "Museum dedicated to the history of the port and local community."
+  },
+  {
+    "name": "Paseo de las Esculturas",
+    "image": "images/paseodelasesculturas.webp",
+    "address": "Bahía Blanca",
+    "description": "Outdoor space featuring sculptures and walking trails."
+  },
+  {
+    "name": "liniers",
+    "image": "images/liniers.webp",
+    "address": "Bahía Blanca",
+    "description": "Popular sports and social club in the city."
+  }
+
+  ]

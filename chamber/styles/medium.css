@@ -1,0 +1,17 @@
+@media (min-width: 641px) {
+
+#cards {
+    grid-template-areas:
+        "one one two"
+        "three four four"
+        "five six seven"
+        "eight eight eight";
+}
+    #cards img {
+        transition: transform 0.3s ease;
+    }
+
+    #cards img:hover {
+        transform: scale(1.05);
+    }
+}
