@@ -110,12 +110,6 @@ header {
     color: #ffd100;
 }
 
-#shoe-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
 #shoe-modal {
     border: none;
     border-radius: 12px;
