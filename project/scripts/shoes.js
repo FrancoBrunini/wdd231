@@ -126,11 +126,11 @@ function openModal(shoe) {
 
     const favoriteBtn = document.querySelector("#favorite-btn");
 
-    console.log(favoriteBtn); // 👈 DEBUG
+    console.log(favoriteBtn); 
 
     favoriteBtn.addEventListener("click", () => {
 
-        console.log("clicked"); // 👈 DEBUG
+        console.log("clicked"); 
 
         saveFavorite(shoe);
 
