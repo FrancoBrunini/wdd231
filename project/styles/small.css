@@ -1,0 +1,197 @@
+:root {
+    --primary: #ffd100;      /* amarillo */
+    --secondary: #111111;    /* negro */
+    --background: #f5f5f5;   /* gris claro */
+    --text: #222222;
+    --white: #ffffff;
+}
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation.open {
+    display: flex;
+}
+header {
+    background-color: #111;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    max-width: 180px;
+    height: auto;
+}
+
+.hero {
+    background-color: #ffd100;
+    color: #111;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.hero p {
+    margin-top: .5rem;
+}
+.shoe-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 1rem;
+    transition: .3s;
+}
+
+.shoe-card:hover {
+    transform: translateY(-5px);
+}
+
+.shoe-card h3 {
+    color: var(--secondary);
+}
+
+.shoe-card img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.featured-section {
+    padding: 2rem 1rem;
+    background-color: var(--background);
+}
+
+.featured-section h2 {
+    text-align: center;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover,
+.navigation .active {
+    color: #ffd100;
+}
+
+#shoe-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#shoe-modal {
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+#shoe-modal img {
+    width: 100%;
+    max-width: 250px;
+}
+
+#close-modal {
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
+.catalog-button-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.catalog-btn {
+    display: inline-block;
+    background-color: #ffd100;
+    color: #111;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.catalog-btn:hover {
+    transform: scale(1.05);
+}
+#shoe-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+footer {
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: var(--primary);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #ffd100;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

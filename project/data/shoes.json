@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "Gel Nimbus 27",
+    "brand": "Asics",
+    "category": "Running",
+    "image": "images/nimbus27.webp",
+    "price": 220
+    
+  },
+  {
+    "id": 2,
+    "name": "Gel Kayano 31",
+    "brand": "Asics",
+    "category": "Running",
+    "image": "images/kayano31.webp",
+    "price": 230
+  },
+  {
+    "id": 3,
+    "name": "Gel Cumulus 27",
+    "brand": "Asics",
+    "category": "Running",
+    "image": "images/cumulus7.webp",
+    "price": 180
+  },
+  {
+    "id": 4,
+    "name": "GT-2000 13",
+    "brand": "Asics",
+    "category": "Running",
+    "image": "images/gt200013.webp",
+    "price": 190
+  },
+  {
+    "id": 5,
+    "name": "Galaxy 7",
+    "brand": "Adidas",
+    "category": "Running",
+    "image": "images/galaxy7.webp",
+    "price": 90
+  },
+  {
+    "id": 6,
+    "name": "Duramo SL 2",
+    "brand": "Adidas",
+    "category": "Running",
+    "image": "images/duramosl2.webp",
+    "price": 100
+  },
+  {
+    "id": 7,
+    "name": "Runfalcon 5",
+    "brand": "Adidas",
+    "category": "Running",
+    "image": "images/runfalcon5.webp",
+    "price": 85
+  },
+  {
+    "id": 8,
+    "name": "Ultraboost 5",
+    "brand": "Adidas",
+    "category": "Running",
+    "image": "images/ultraboost5.webp",
+    "price": 220
+  },
+  {
+    "id": 9,
+    "name": "Structure 25",
+    "brand": "Nike",
+    "category": "Running",
+    "image": "images/structure25.webp",
+    "price": 140
+  },
+  {
+    "id": 10,
+    "name": "Pegasus 41",
+    "brand": "Nike",
+    "category": "Running",
+    "image": "images/pegasus41.webp",
+    "price": 140
+  },
+  {
+    "id": 11,
+    "name": "Revolution 8",
+    "brand": "Nike",
+    "category": "Running",
+    "image": "images/revolution8.webp",
+    "price": 80
+  },
+  {
+    "id": 12,
+    "name": "Fresh Foam X 1080 v14",
+    "brand": "New Balance",
+    "category": "Running",
+    "image": "images/freshfoamx1080v14.webp",
+    "price": 210
+  },
+  {
+    "id": 13,
+    "name": "FuelCell Propel v5",
+    "brand": "New Balance",
+    "category": "Running",
+    "image": "images/fuelcellpropelv5.webp",
+    "price": 130
+  },
+  {
+    "id": 14,
+    "name": "Wave Rider 28",
+    "brand": "Mizuno",
+    "category": "Running",
+    "image": "images/waverider28.webp",
+    "price": 180
+  },
+  {
+    "id": 15,
+    "name": "Wave Inspire 21",
+    "brand": "Mizuno",
+    "category": "Running",
+    "image": "images/waveinspire21.webp",
+    "price": 170
+
+  }
+]
